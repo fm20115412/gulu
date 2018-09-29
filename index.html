@@ -22,32 +22,12 @@
         --border-hover-bg:#eee;
         --border-active-bg:#999;
     }
-    .v-button{
-        font-size: var(--font-size);
-        height: var(--button-height);
-        padding: 0 1em;
-        border-radius: var(--border-radius);
-    }
-    .v-button:hover{
-        background-color: var(--border-hover-bg);
-    }
-    .v-button:focus{
-        outline: none;
-    }
-    .v-button:active{
-        background-color: var(--border-active-bg);
-    }
+   
 </style>
 <body>
-    <script src="./node_modules/vue/dist/vue.min.js"></script>
-    <script src="./v-button.js"></script>
     <div id="app">
         <v-button></v-button>
     </div>
-    <script>
-        var vm=new Vue({
-            el:"#app",
-        })
-    </script>
+    <script src="./src/app.js"></script>
 </body>
 </html>
