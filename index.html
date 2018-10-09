@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-Hans">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,36 @@
     <title>Document</title>
 </head>
 <style>
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
-    body{
+
+    body {
         margin: 20px;
     }
-    :root{
-        --button-height:32px;
-        --font-size:14px;
-        --border-radius:4px;
-        --border-hover-bg:#eee;
-        --border-active-bg:#999;
+
+    :root {
+        --button-height: 32px;
+        --font-size: 14px;
+        --border-radius: 4px;
+        --border-hover-bg: #eee;
+        --border-active-bg: #999;
     }
-   
+</style>
+<style>
+    .icon{
+        width: 1em;
+        height: 1em;
+    }
 </style>
 <body>
     <div id="app">
-        <v-button></v-button>
+        <v-button icon="love"></v-button>
     </div>
     <script src="./src/app.js"></script>
+    <script src="//at.alicdn.com/t/font_864131_g3qthlnajtk.js"></script>
 </body>
+
 </html>
